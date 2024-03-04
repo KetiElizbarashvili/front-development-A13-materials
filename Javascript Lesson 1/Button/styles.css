@@ -1,0 +1,24 @@
+.button{
+    background-color: rgb(10, 29, 75);
+    width: 300px;
+    height: 80px;
+    border-radius: 30px;
+    font-size: medium;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.clicked{
+    background-color: rgb(251, 189, 33);
+}
