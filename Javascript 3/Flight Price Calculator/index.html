@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Price Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"> </script>
+</head>
+<body>
+    <h1>Flight Price Calculator </h1>
+
+    
+    <div>
+
+    <label> Enter Your Age: </label>
+    <input type="number" id="age"> 
+
+    </div>
+
+    <div> 
+
+
+       <label> Enter Your Flight Class (Economy/Business/First):  </label> 
+       <select id="flightClass"> 
+
+        <option value="economy">Economy</option>
+        <option value="Business">Business</option>
+        <option value="first">First</option>
+       </select>
+    </div>
+
+
+    <div> 
+        <label> Enter the flight distance in miles: </label>
+        <input type="number" id="distance"> 
+
+    </div>
+
+    <div> 
+        <label><input type="checkox" id="isPeakSeason">Is it peak travel season? </label>
+    </div>
+
+    <div> 
+        <label><input type="checkox" id="isMember">Are you a flyer member? </label>
+    </div> 
+
+<div> 
+    <button onclick="calculatePrice()">Calculate Price</button>
+</div>
+<div id="priceDisplay"> </div>
+</body>
+</html>
